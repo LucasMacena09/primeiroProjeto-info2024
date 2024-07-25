@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #775542;
+    color: #fff;
+    padding: 29px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: #8f6a57;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 18px 28px;
+    background-color: #a67f6b;
+    border-radius: 4px;
+}
+
+.foto p {
+    font-size: 30px;
+}
+
+#formulario {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#formulario textarea {
+    height: 100px;
+}
+
+#formulario input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8f6a57;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.35s;
+}
+
+#formulario input[type="submit"]:hover {
+    background-color: #a67f6b;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.meunome {
+    display: none;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 18px;
+}
+
+.foto img {
+    padding-left: 40px;
+    height: 220px;
+}
+
+.fotok {
+    padding: 20px;
+    font-size: 21px;
+    text-align: left;
+}
+
+.foto p {
+    text-align: left;
+    font-size: 21px;
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+.titulop {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.imgk {
+    width: 600px;
+}
+
+.descricao {
+    font-size: 19px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #775542;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .imgk {
+        width: 320px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    nav ul li {
+        display: inline;
+        padding: 0px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        transition: all 0.3s;
+        padding: 0;
+        background-color: #775542;
+    }
+
+    nav ul li a:hover {
+        padding: 0;
+        background-color: #775542;
+    }
+
+    main section h1 {
+        font-size: 18px;
+    }
+
+    main section p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .foto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto p {
+        font-size: 18px;
+    }
+    
+    .foto img {
+        align-items: center;
+        padding: 10px 0;
+        display: block;
+        width: 300;
+        border-radius: 15px;
+    }
+
+    .fotok p {
+        padding: 0;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .meunome {
+        display: block;
+    }
+}
